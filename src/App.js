@@ -59,7 +59,7 @@ function App() {
 
   useInterval(() => {
     if (start) {
-      console.log(iteration);
+     
       if (iteration === 2017) {
         setIteration(2000);
       } else {
