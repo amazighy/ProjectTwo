@@ -1,0 +1,156 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0 50px 150px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-left: 27%;
+  margin-right: 27%;
+}
+
+svg {
+  overflow: visible;
+  display: block;
+  background: #eee;
+  width: 100%;
+  height: 200px;
+}
+
+
+svg rect.selection {
+  stroke: none;
+}
+
+
+.iteration{
+  font-size: 2em;
+  padding-top:-10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: -2em;
+  text-align:right;
+  
+}
+
+.butRace{
+  padding: 15px 32px;
+  font-size: 16px;
+  padding: 6px 35px;
+  cursor: pointer;
+  border:red !important;
+  border-bottom: magenta;
+  -webkit-box-shadow: none !important;
+  box-shadow: none  !important;
+  outline: 0 !important;
+  outline-offset: 0  !important;
+  background-image: none  !important;
+  margin-bottom:3em;
+}
+.butRace:focus {
+  background-color:#f5b951 !important;
+}
+
+
+
+
+
+text {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.tick text {
+  fill: #635f5d;
+}
+.label{
+  font-size: 1em;
+  
+  font-family: sans-serif;
+  padding-top: 0.5em;
+  color: #635f5d;
+ 
+  
+
+}
+
+.tick line {
+  stroke: #e5e2e0;
+}
+
+.text-names {
+  font-size: 0.6em;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding-top: 0.5em;
+  color: #635f5d;
+  width: 9em;
+  height: 1.35em;
+}
+
+.container {
+  /* background: #eee; */
+  display: inline-block;
+  margin: 0.25em;
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.3em;
+  cursor: pointer;
+}
+/* Hide  default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 1.2em;
+  width: 1.2em;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+@media screen and (max-width:500px){
+  .AreaDiv,.raceDiv,.fields {
+    margin-left : 0;
+    margin-right: 0;
+  }
+  
+}
+
+
+
+
+

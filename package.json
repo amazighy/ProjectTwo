@@ -1,0 +1,42 @@
+{
+  "homepage":"https://amazighy/github.io/ProjectTwo",
+  "name": "15-stacked-area-chart",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "d3": "^5.12.0",
+    "ml5": "^0.4.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-scripts": "^3.4.1",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
