@@ -31,7 +31,7 @@ for (var k in colors) {
 }
 
 function App() {
-  const [iteration, setIteration] = useState(2000);
+  const [iteration, setIteration] = useState(2017);
   const [start, setStart] = useState(false);
   const [keys, setKeys] = useState(allKeys);
   const [stackData, setStackData] = useState([]);
