@@ -48,7 +48,7 @@ function App() {
         setStackData(stackData);
         setData(barData);
         barData.sort((a, b) => b.value - a.value);
-        console.log(barData);
+       
         const intialData = [...barData].filter((d) => d.year === 2017);
         setBarData(intialData);
       })
