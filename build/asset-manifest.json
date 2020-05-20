@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/github.io/ProjectTwo/static/css/main.0eff1277.chunk.css",
+    "main.js": "/github.io/ProjectTwo/static/js/main.50cea31b.chunk.js",
+    "main.js.map": "/github.io/ProjectTwo/static/js/main.50cea31b.chunk.js.map",
+    "runtime-main.js": "/github.io/ProjectTwo/static/js/runtime-main.1425121b.js",
+    "runtime-main.js.map": "/github.io/ProjectTwo/static/js/runtime-main.1425121b.js.map",
+    "static/js/2.fd23b5ef.chunk.js": "/github.io/ProjectTwo/static/js/2.fd23b5ef.chunk.js",
+    "static/js/2.fd23b5ef.chunk.js.map": "/github.io/ProjectTwo/static/js/2.fd23b5ef.chunk.js.map",
+    "index.html": "/github.io/ProjectTwo/index.html",
+    "precache-manifest.00d2fc76632ebd69c1e19682ed430f42.js": "/github.io/ProjectTwo/precache-manifest.00d2fc76632ebd69c1e19682ed430f42.js",
+    "service-worker.js": "/github.io/ProjectTwo/service-worker.js",
+    "static/css/main.0eff1277.chunk.css.map": "/github.io/ProjectTwo/static/css/main.0eff1277.chunk.css.map",
+    "static/js/2.fd23b5ef.chunk.js.LICENSE.txt": "/github.io/ProjectTwo/static/js/2.fd23b5ef.chunk.js.LICENSE.txt",
+    "static/media/baData.csv": "/github.io/ProjectTwo/static/media/baData.9911f9f4.csv",
+    "static/media/stackData.csv": "/github.io/ProjectTwo/static/media/stackData.be06f672.csv"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1425121b.js",
+    "static/js/2.fd23b5ef.chunk.js",
+    "static/css/main.0eff1277.chunk.css",
+    "static/js/main.50cea31b.chunk.js"
+  ]
+}
